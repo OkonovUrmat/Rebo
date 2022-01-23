@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370436952761B1E9007A8C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436942761B1E9007A8C47 /* AppDelegate.swift */; };
+		370436972761B1E9007A8C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436962761B1E9007A8C47 /* SceneDelegate.swift */; };
+		370436992761B1E9007A8C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436982761B1E9007A8C47 /* ViewController.swift */; };
+		3704369C2761B1E9007A8C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3704369A2761B1E9007A8C47 /* Main.storyboard */; };
+		3704369F2761B1E9007A8C47 /* Rebo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3704369D2761B1E9007A8C47 /* Rebo.xcdatamodeld */; };
+		370436A12761B1EB007A8C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370436A02761B1EB007A8C47 /* Assets.xcassets */; };
+		370436A42761B1EB007A8C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */; };
+		370436AF2761B1EC007A8C47 /* ReboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436AE2761B1EC007A8C47 /* ReboTests.swift */; };
+		370436B92761B1EC007A8C47 /* ReboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436B82761B1EC007A8C47 /* ReboUITests.swift */; };
+		370436BB2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436BA2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift */; };
+		3760C0452784694E003FBB92 /* WebSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760C0442784694E003FBB92 /* WebSocketViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370436AB2761B1EC007A8C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370436892761B1E8007A8C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370436902761B1E9007A8C47;
+			remoteInfo = Rebo;
+		};
+		370436B52761B1EC007A8C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370436892761B1E8007A8C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370436902761B1E9007A8C47;
+			remoteInfo = Rebo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370436912761B1E9007A8C47 /* Rebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370436942761B1E9007A8C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370436962761B1E9007A8C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		370436982761B1E9007A8C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3704369B2761B1E9007A8C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3704369E2761B1E9007A8C47 /* Rebo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rebo.xcdatamodel; sourceTree = "<group>"; };
+		370436A02761B1EB007A8C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370436A32761B1EB007A8C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370436A52761B1EB007A8C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370436AA2761B1EC007A8C47 /* ReboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370436AE2761B1EC007A8C47 /* ReboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboTests.swift; sourceTree = "<group>"; };
+		370436B42761B1EC007A8C47 /* ReboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370436B82761B1EC007A8C47 /* ReboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboUITests.swift; sourceTree = "<group>"; };
+		370436BA2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3760C0442784694E003FBB92 /* WebSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3704368E2761B1E9007A8C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436A72761B1EC007A8C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436B12761B1EC007A8C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370436882761B1E8007A8C47 = {
+			isa = PBXGroup;
+			children = (
+				370436932761B1E9007A8C47 /* Rebo */,
+				370436C72761B1F5007A8C47 /* Frameworks */,
+				370436AD2761B1EC007A8C47 /* ReboTests */,
+				370436B72761B1EC007A8C47 /* ReboUITests */,
+				370436922761B1E9007A8C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370436922761B1E9007A8C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370436912761B1E9007A8C47 /* Rebo.app */,
+				370436AA2761B1EC007A8C47 /* ReboTests.xctest */,
+				370436B42761B1EC007A8C47 /* ReboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370436932761B1E9007A8C47 /* Rebo */ = {
+			isa = PBXGroup;
+			children = (
+				370436942761B1E9007A8C47 /* AppDelegate.swift */,
+				370436962761B1E9007A8C47 /* SceneDelegate.swift */,
+				370436982761B1E9007A8C47 /* ViewController.swift */,
+				3760C0442784694E003FBB92 /* WebSocketViewController.swift */,
+				3704369A2761B1E9007A8C47 /* Main.storyboard */,
+				370436A02761B1EB007A8C47 /* Assets.xcassets */,
+				370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */,
+				370436A52761B1EB007A8C47 /* Info.plist */,
+				3704369D2761B1E9007A8C47 /* Rebo.xcdatamodeld */,
+			);
+			path = Rebo;
+			sourceTree = "<group>";
+		};
+		370436AD2761B1EC007A8C47 /* ReboTests */ = {
+			isa = PBXGroup;
+			children = (
+				370436AE2761B1EC007A8C47 /* ReboTests.swift */,
+			);
+			path = ReboTests;
+			sourceTree = "<group>";
+		};
+		370436B72761B1EC007A8C47 /* ReboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370436B82761B1EC007A8C47 /* ReboUITests.swift */,
+				370436BA2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift */,
+			);
+			path = ReboUITests;
+			sourceTree = "<group>";
+		};
+		370436C72761B1F5007A8C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370436902761B1E9007A8C47 /* Rebo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370436BE2761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "Rebo" */;
+			buildPhases = (
+				3704368D2761B1E9007A8C47 /* Sources */,
+				3704368E2761B1E9007A8C47 /* Frameworks */,
+				3704368F2761B1E9007A8C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rebo;
+			productName = Rebo;
+			productReference = 370436912761B1E9007A8C47 /* Rebo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370436A92761B1EC007A8C47 /* ReboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370436C12761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboTests" */;
+			buildPhases = (
+				370436A62761B1EC007A8C47 /* Sources */,
+				370436A72761B1EC007A8C47 /* Frameworks */,
+				370436A82761B1EC007A8C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370436AC2761B1EC007A8C47 /* PBXTargetDependency */,
+			);
+			name = ReboTests;
+			productName = ReboTests;
+			productReference = 370436AA2761B1EC007A8C47 /* ReboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370436B32761B1EC007A8C47 /* ReboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370436C42761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboUITests" */;
+			buildPhases = (
+				370436B02761B1EC007A8C47 /* Sources */,
+				370436B12761B1EC007A8C47 /* Frameworks */,
+				370436B22761B1EC007A8C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370436B62761B1EC007A8C47 /* PBXTargetDependency */,
+			);
+			name = ReboUITests;
+			productName = ReboUITests;
+			productReference = 370436B42761B1EC007A8C47 /* ReboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370436892761B1E8007A8C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					370436902761B1E9007A8C47 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					370436A92761B1EC007A8C47 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 370436902761B1E9007A8C47;
+					};
+					370436B32761B1EC007A8C47 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 370436902761B1E9007A8C47;
+					};
+				};
+			};
+			buildConfigurationList = 3704368C2761B1E8007A8C47 /* Build configuration list for PBXProject "Rebo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370436882761B1E8007A8C47;
+			productRefGroup = 370436922761B1E9007A8C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370436902761B1E9007A8C47 /* Rebo */,
+				370436A92761B1EC007A8C47 /* ReboTests */,
+				370436B32761B1EC007A8C47 /* ReboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3704368F2761B1E9007A8C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370436A42761B1EB007A8C47 /* LaunchScreen.storyboard in Resources */,
+				370436A12761B1EB007A8C47 /* Assets.xcassets in Resources */,
+				3704369C2761B1E9007A8C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436A82761B1EC007A8C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436B22761B1EC007A8C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3704368D2761B1E9007A8C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370436992761B1E9007A8C47 /* ViewController.swift in Sources */,
+				3704369F2761B1E9007A8C47 /* Rebo.xcdatamodeld in Sources */,
+				370436952761B1E9007A8C47 /* AppDelegate.swift in Sources */,
+				3760C0452784694E003FBB92 /* WebSocketViewController.swift in Sources */,
+				370436972761B1E9007A8C47 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436A62761B1EC007A8C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370436AF2761B1EC007A8C47 /* ReboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370436B02761B1EC007A8C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370436BB2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift in Sources */,
+				370436B92761B1EC007A8C47 /* ReboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370436AC2761B1EC007A8C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370436902761B1E9007A8C47 /* Rebo */;
+			targetProxy = 370436AB2761B1EC007A8C47 /* PBXContainerItemProxy */;
+		};
+		370436B62761B1EC007A8C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370436902761B1E9007A8C47 /* Rebo */;
+			targetProxy = 370436B52761B1EC007A8C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3704369A2761B1E9007A8C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3704369B2761B1E9007A8C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370436A32761B1EB007A8C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370436BC2761B1EC007A8C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370436BD2761B1EC007A8C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370436BF2761B1EC007A8C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rebo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.Rebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370436C02761B1EC007A8C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rebo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.Rebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		370436C22761B1EC007A8C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.ReboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rebo.app/Rebo";
+			};
+			name = Debug;
+		};
+		370436C32761B1EC007A8C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.ReboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rebo.app/Rebo";
+			};
+			name = Release;
+		};
+		370436C52761B1EC007A8C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.ReboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rebo;
+			};
+			name = Debug;
+		};
+		370436C62761B1EC007A8C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW77ZW8HLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Urmat.ReboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rebo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3704368C2761B1E8007A8C47 /* Build configuration list for PBXProject "Rebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370436BC2761B1EC007A8C47 /* Debug */,
+				370436BD2761B1EC007A8C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370436BE2761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "Rebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370436BF2761B1EC007A8C47 /* Debug */,
+				370436C02761B1EC007A8C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370436C12761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370436C22761B1EC007A8C47 /* Debug */,
+				370436C32761B1EC007A8C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370436C42761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370436C52761B1EC007A8C47 /* Debug */,
+				370436C62761B1EC007A8C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3704369D2761B1E9007A8C47 /* Rebo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3704369E2761B1E9007A8C47 /* Rebo.xcdatamodel */,
+			);
+			currentVersion = 3704369E2761B1E9007A8C47 /* Rebo.xcdatamodel */;
+			path = Rebo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 370436892761B1E8007A8C47 /* Project object */;
+}
