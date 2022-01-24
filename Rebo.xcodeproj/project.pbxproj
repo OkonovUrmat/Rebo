@@ -9,15 +9,19 @@
 /* Begin PBXBuildFile section */
 		370436952761B1E9007A8C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436942761B1E9007A8C47 /* AppDelegate.swift */; };
 		370436972761B1E9007A8C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436962761B1E9007A8C47 /* SceneDelegate.swift */; };
-		370436992761B1E9007A8C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436982761B1E9007A8C47 /* ViewController.swift */; };
-		3704369C2761B1E9007A8C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3704369A2761B1E9007A8C47 /* Main.storyboard */; };
+		370436992761B1E9007A8C47 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436982761B1E9007A8C47 /* MainViewController.swift */; };
 		3704369F2761B1E9007A8C47 /* Rebo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3704369D2761B1E9007A8C47 /* Rebo.xcdatamodeld */; };
 		370436A12761B1EB007A8C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370436A02761B1EB007A8C47 /* Assets.xcassets */; };
 		370436A42761B1EB007A8C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */; };
 		370436AF2761B1EC007A8C47 /* ReboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436AE2761B1EC007A8C47 /* ReboTests.swift */; };
 		370436B92761B1EC007A8C47 /* ReboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436B82761B1EC007A8C47 /* ReboUITests.swift */; };
 		370436BB2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370436BA2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift */; };
-		3760C0452784694E003FBB92 /* WebSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760C0442784694E003FBB92 /* WebSocketViewController.swift */; };
+		3760C0452784694E003FBB92 /* HallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760C0442784694E003FBB92 /* HallViewController.swift */; };
+		37C9AA78279EC5D5001B254C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C9AA77279EC5D5001B254C /* LoginViewController.swift */; };
+		37C9AA7A279EC600001B254C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C9AA79279EC600001B254C /* LoginViewModel.swift */; };
+		A150611C1D00B3B52F83B410 /* Pods_Rebo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C138D8236CCD3B0DC506E7B1 /* Pods_Rebo.framework */; };
+		C9EBC4316CDBCB25A65CF907 /* Pods_ReboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E088231FE048B97C33870C0 /* Pods_ReboTests.framework */; };
+		FBAAE3D641090174408B9139 /* Pods_Rebo_ReboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9CD53B44557488A476F8F /* Pods_Rebo_ReboUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23C9D60D3458D3FAFCC0EF24 /* Pods-ReboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReboTests.release.xcconfig"; path = "Target Support Files/Pods-ReboTests/Pods-ReboTests.release.xcconfig"; sourceTree = "<group>"; };
 		370436912761B1E9007A8C47 /* Rebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370436942761B1E9007A8C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		370436962761B1E9007A8C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		370436982761B1E9007A8C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3704369B2761B1E9007A8C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		370436982761B1E9007A8C47 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3704369E2761B1E9007A8C47 /* Rebo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rebo.xcdatamodel; sourceTree = "<group>"; };
 		370436A02761B1EB007A8C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370436A32761B1EB007A8C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,7 +56,17 @@
 		370436B42761B1EC007A8C47 /* ReboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370436B82761B1EC007A8C47 /* ReboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboUITests.swift; sourceTree = "<group>"; };
 		370436BA2761B1EC007A8C47 /* ReboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3760C0442784694E003FBB92 /* WebSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketViewController.swift; sourceTree = "<group>"; };
+		3760C0442784694E003FBB92 /* HallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallViewController.swift; sourceTree = "<group>"; };
+		37C9AA77279EC5D5001B254C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37C9AA79279EC600001B254C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		61CE80A29A105F5BE0EE4897 /* Pods-Rebo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rebo.release.xcconfig"; path = "Target Support Files/Pods-Rebo/Pods-Rebo.release.xcconfig"; sourceTree = "<group>"; };
+		7E088231FE048B97C33870C0 /* Pods_ReboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9F8278E51494DC9644AAF8 /* Pods-Rebo-ReboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rebo-ReboUITests.release.xcconfig"; path = "Target Support Files/Pods-Rebo-ReboUITests/Pods-Rebo-ReboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9415B5C67BA709A157ED7A87 /* Pods-ReboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReboTests.debug.xcconfig"; path = "Target Support Files/Pods-ReboTests/Pods-ReboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C48398AFC2574414D6F6B8D /* Pods-Rebo-ReboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rebo-ReboUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rebo-ReboUITests/Pods-Rebo-ReboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA9CD53B44557488A476F8F /* Pods_Rebo_ReboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rebo_ReboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C138D8236CCD3B0DC506E7B1 /* Pods_Rebo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rebo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F174BBE0BFBEBCECFA318F13 /* Pods-Rebo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rebo.debug.xcconfig"; path = "Target Support Files/Pods-Rebo/Pods-Rebo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A150611C1D00B3B52F83B410 /* Pods_Rebo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EBC4316CDBCB25A65CF907 /* Pods_ReboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAAE3D641090174408B9139 /* Pods_Rebo_ReboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13E780AAF1B1301DB25742E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F174BBE0BFBEBCECFA318F13 /* Pods-Rebo.debug.xcconfig */,
+				61CE80A29A105F5BE0EE4897 /* Pods-Rebo.release.xcconfig */,
+				9C48398AFC2574414D6F6B8D /* Pods-Rebo-ReboUITests.debug.xcconfig */,
+				8D9F8278E51494DC9644AAF8 /* Pods-Rebo-ReboUITests.release.xcconfig */,
+				9415B5C67BA709A157ED7A87 /* Pods-ReboTests.debug.xcconfig */,
+				23C9D60D3458D3FAFCC0EF24 /* Pods-ReboTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		370436882761B1E8007A8C47 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,7 @@
 				370436AD2761B1EC007A8C47 /* ReboTests */,
 				370436B72761B1EC007A8C47 /* ReboUITests */,
 				370436922761B1E9007A8C47 /* Products */,
+				13E780AAF1B1301DB25742E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +135,11 @@
 		370436932761B1E9007A8C47 /* Rebo */ = {
 			isa = PBXGroup;
 			children = (
+				37C9AA76279EC5B9001B254C /* Model */,
+				37C9AA75279EC5B1001B254C /* ViewModel */,
+				37C9AA74279EC5AA001B254C /* View */,
 				370436942761B1E9007A8C47 /* AppDelegate.swift */,
 				370436962761B1E9007A8C47 /* SceneDelegate.swift */,
-				370436982761B1E9007A8C47 /* ViewController.swift */,
-				3760C0442784694E003FBB92 /* WebSocketViewController.swift */,
-				3704369A2761B1E9007A8C47 /* Main.storyboard */,
 				370436A02761B1EB007A8C47 /* Assets.xcassets */,
 				370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */,
 				370436A52761B1EB007A8C47 /* Info.plist */,
@@ -137,8 +168,36 @@
 		370436C72761B1F5007A8C47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C138D8236CCD3B0DC506E7B1 /* Pods_Rebo.framework */,
+				9EA9CD53B44557488A476F8F /* Pods_Rebo_ReboUITests.framework */,
+				7E088231FE048B97C33870C0 /* Pods_ReboTests.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		37C9AA74279EC5AA001B254C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				370436982761B1E9007A8C47 /* MainViewController.swift */,
+				3760C0442784694E003FBB92 /* HallViewController.swift */,
+				37C9AA77279EC5D5001B254C /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37C9AA75279EC5B1001B254C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37C9AA79279EC600001B254C /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37C9AA76279EC5B9001B254C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370436BE2761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "Rebo" */;
 			buildPhases = (
+				9293DA527D3C6AE6FC1C6953 /* [CP] Check Pods Manifest.lock */,
 				3704368D2761B1E9007A8C47 /* Sources */,
 				3704368E2761B1E9007A8C47 /* Frameworks */,
 				3704368F2761B1E9007A8C47 /* Resources */,
+				688DFB173DF0DA341783CE63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370436C12761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboTests" */;
 			buildPhases = (
+				93A8C77F1C67FF4313D78F73 /* [CP] Check Pods Manifest.lock */,
 				370436A62761B1EC007A8C47 /* Sources */,
 				370436A72761B1EC007A8C47 /* Frameworks */,
 				370436A82761B1EC007A8C47 /* Resources */,
@@ -183,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370436C42761B1EC007A8C47 /* Build configuration list for PBXNativeTarget "ReboUITests" */;
 			buildPhases = (
+				32CE39DF6600B0F8A4E2B4AA /* [CP] Check Pods Manifest.lock */,
 				370436B02761B1EC007A8C47 /* Sources */,
 				370436B12761B1EC007A8C47 /* Frameworks */,
 				370436B22761B1EC007A8C47 /* Resources */,
+				BA39137E005C2B4CC5695A0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,7 +311,6 @@
 			files = (
 				370436A42761B1EB007A8C47 /* LaunchScreen.storyboard in Resources */,
 				370436A12761B1EB007A8C47 /* Assets.xcassets in Resources */,
-				3704369C2761B1E9007A8C47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,16 +330,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32CE39DF6600B0F8A4E2B4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rebo-ReboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		688DFB173DF0DA341783CE63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rebo/Pods-Rebo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rebo/Pods-Rebo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rebo/Pods-Rebo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9293DA527D3C6AE6FC1C6953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rebo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A8C77F1C67FF4313D78F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA39137E005C2B4CC5695A0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rebo-ReboUITests/Pods-Rebo-ReboUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rebo-ReboUITests/Pods-Rebo-ReboUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rebo-ReboUITests/Pods-Rebo-ReboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3704368D2761B1E9007A8C47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370436992761B1E9007A8C47 /* ViewController.swift in Sources */,
+				37C9AA78279EC5D5001B254C /* LoginViewController.swift in Sources */,
+				370436992761B1E9007A8C47 /* MainViewController.swift in Sources */,
 				3704369F2761B1E9007A8C47 /* Rebo.xcdatamodeld in Sources */,
 				370436952761B1E9007A8C47 /* AppDelegate.swift in Sources */,
-				3760C0452784694E003FBB92 /* WebSocketViewController.swift in Sources */,
+				3760C0452784694E003FBB92 /* HallViewController.swift in Sources */,
 				370436972761B1E9007A8C47 /* SceneDelegate.swift in Sources */,
+				37C9AA7A279EC600001B254C /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3704369A2761B1E9007A8C47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3704369B2761B1E9007A8C47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		370436A22761B1EB007A8C47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,6 +610,7 @@
 		};
 		370436BF2761B1EC007A8C47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F174BBE0BFBEBCECFA318F13 /* Pods-Rebo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,7 +621,6 @@
 				INFOPLIST_FILE = Rebo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,6 +638,7 @@
 		};
 		370436C02761B1EC007A8C47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61CE80A29A105F5BE0EE4897 /* Pods-Rebo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,7 +649,6 @@
 				INFOPLIST_FILE = Rebo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +666,7 @@
 		};
 		370436C22761B1EC007A8C47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9415B5C67BA709A157ED7A87 /* Pods-ReboTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +692,7 @@
 		};
 		370436C32761B1EC007A8C47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C9D60D3458D3FAFCC0EF24 /* Pods-ReboTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +718,7 @@
 		};
 		370436C52761B1EC007A8C47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C48398AFC2574414D6F6B8D /* Pods-Rebo-ReboUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +742,7 @@
 		};
 		370436C62761B1EC007A8C47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9F8278E51494DC9644AAF8 /* Pods-Rebo-ReboUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
