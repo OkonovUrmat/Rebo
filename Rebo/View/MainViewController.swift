@@ -24,9 +24,10 @@ class MyView: UIView {
         let topGuide = UILayoutGuide()
         let bottomGuide = UILayoutGuide()
 
-        addLayoutGuide(topGuide)
-        addLayoutGuide(bottomGuide)
+//        addLayoutGuide(topGuide)
+//        addLayoutGuide(bottomGuide)
         
+        [topGuide, bottomGuide].forEach { addLayoutGuide($0) }
     
         anotherView.anchor(top: topGuide.bottomAnchor, bottom: nil, leading: nil, trailing: trailingAnchor, padding: .init(top: 0, left: 0, bottom: 15, right: 15), size: .init(width: 100, height: 100))
         
