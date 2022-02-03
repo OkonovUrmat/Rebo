@@ -7,14 +7,13 @@
 
 import UIKit
 
-class UIView_Extension: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+extension UIView {
+    func anchor(top: NSLayoutYAxisAnchor, bottom: NSLayoutYAxisAnchor, leading: NSLayoutXAxisAnchor, trailing: NSLayoutXAxisAnchor, padding: UIEdgeInsets = .zero) {
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        topAnchor.constraint(equalTo: top, constant: padding.top).isActive = true
+        bottomAnchor.constraint(equalTo: bottom, constant: -padding.bottom).isActive = true
+        leadingAnchor.constraint(equalTo: leading, constant: padding.left).isActive = true
+        trailingAnchor.constraint(equalTo: trailing, constant: -padding.right).isActive = true
     }
-    */
-
 }

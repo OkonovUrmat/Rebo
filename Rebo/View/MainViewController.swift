@@ -27,6 +27,10 @@ class MyView: UIView {
         addLayoutGuide(topGuide)
         addLayoutGuide(bottomGuide)
         
+    
+        anotherView.anchor(top: topGuide.bottomAnchor, bottom: topGuide.topAnchor, leading: leadingAnchor, trailing: trailingAnchor, padding: .init(top: 0, left: 0, bottom: 15, right: 15))
+        
+        
         NSLayoutConstraint.activate([
             topGuide.leadingAnchor.constraint(equalTo: leadingAnchor),
             topGuide.trailingAnchor.constraint(equalTo: trailingAnchor),
